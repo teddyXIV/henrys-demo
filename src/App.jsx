@@ -42,7 +42,7 @@ function App() {
         <ul className="m-4">
           {songList}
         </ul>
-        <a href="/music/compressed.zip" download className="flex flex-row text-white underline">
+        <a href="https://drive.google.com/uc?export=download&id=17Fya3ptjK_tWekuu4IUzb6fUnpzeXrwR" target="_blank" rel="noopener noreferrer" className="flex flex-row text-white underline">
           Download wav .zip
           <img src={downloadIcon} alt="Download icon" className="mx-2" />
         </a>
@@ -52,3 +52,5 @@ function App() {
 }
 
 export default App
+
+//https://drive.google.com/file/d/17Fya3ptjK_tWekuu4IUzb6fUnpzeXrwR/view?usp=drive_link
